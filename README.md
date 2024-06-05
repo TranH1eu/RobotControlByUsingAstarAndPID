@@ -6,4 +6,5 @@ First, we simulate the map for the robot using matlab software at a uniform scal
 
 
 After planning the path for the robot and then transferring the coordinates in the path obtained from the star algorithm and combining it with the PID controller so that the robot in coppeliaSim runs:
+
 ![CoppeliaResult](https://github.com/TranH1eu/RobotControlByUsingAstarAndPID/assets/100560535/5a7d1c0f-5162-4134-bf80-e43e50477d6c)
