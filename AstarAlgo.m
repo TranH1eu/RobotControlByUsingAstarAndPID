@@ -10,6 +10,17 @@ obs0 = [1:map_size(1), ...
         map_size(1) * (map_size(2) - 1):map_size(1) * map_size(2)];
 
 obs1 = [
+        1615:1:1649,...
+        1665:1:1699,...
+        1715:1:1749
+        ];
+    
+obs2 = [
+        701:1:735,...
+        751:1:785,...
+        ];
+        
+obstacle = [obs0, obs1,obs2];
 hold on;
 grid_map = generate_grid(map_size, obstacle);
 
