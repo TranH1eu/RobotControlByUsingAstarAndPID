@@ -1,4 +1,4 @@
-In this project we controlled the robot to the goal using the A star algorithm.
+In this project we controlled the robot to find the shortest distance and go to the goal using PID and A star algorithm.
 
 First, we simulate the map for the robot using matlab software at a uniform scale for coppeliaSim and then plan the robot's path:
 
